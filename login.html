@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Play Hangman</h2>
+        <form action="index.html" method="POST" class="form-login">
+            <div class="input-group">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <h2>New User? Register Here</h2>
+        <form action="login.html" method="POST" class="form-register">
+            <div class="input-group">
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
